@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: auto;
+  padding: 20px;
+}
+
+.App  h3{
+  display: flex;
+  background-color: gold;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.App p{
+  background-color: lightblue;
+  flex-direction: column;
+  align-items: auto;
+  padding: 20px;
+}  
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+  }
+  
+
+
+
+
+
+
+.article-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  max-height: 500px; /* Adjust this value to control the default height */
+  overflow: scroll;
+   transition:all                                
+     /* max-height 0.3s ease-in-out;  */ 
+}
+
+
+.details h4{
+  background-color:lightyellow;
+  align-items: auto;
+}
+
+
+.details p{
+   background-color: yellow;
+   align-items: center;
+}
+
+.details li{
+  background-color:aquamarine;
+  align-items: center;
+}

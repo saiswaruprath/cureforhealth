@@ -1,0 +1,93 @@
+.upload {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+.upload-resource-page h2{
+  display: flex;
+  background-color: gold;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}  
+
+
+.upload-resource-page p{
+  background-color: lightblue;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}  
+
+
+  .upload-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .form-group input[type='file'] {
+    cursor: pointer;
+  }
+  
+  .file-icons[type='file'] {
+    color: coral;
+    cursor: pointer;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+
+  /* Existing CSS styles */
+
+.searched-resource-details {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f7f7f7;
+}
+
+.searched-resource-details h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  background-color: bisque;
+}
+
+.searched-resource-details p {
+  margin: 5px 0;
+  background-color: greenyellow;
+}
+
+/* Other styles */
+
+  
