@@ -2,19 +2,7 @@ import { Link} from 'react-router-dom';
 // import { useState} from 'react'
 import { useParams} from 'react-router-dom';
 function ArticleDetails({ data }) {
-    //  const [data, setData] = useState([]);
 
-    // useEffect(() => {
-    //     fetch('/api/data')
-    //       .then(response => response.json())
-    //       .then(jsonData => {
-    //         setData(jsonData);
-    //       })
-          
-    //       .catch(error => {
-    //         console.error('Error fetching data:', error);
-    //       });
-    //   }, []);
       
       const { itemTitle } = useParams();
      
@@ -23,9 +11,7 @@ function ArticleDetails({ data }) {
       if (!newitem) {
         return <div>Article not found</div>;
       }
-       
-    //   const ArticleCard = ({ newitem }) => {
-       
+             
     
         const imageUrl = newitem.thumbnails.startsWith('https://')
         ? newitem.thumbnails
@@ -33,16 +19,8 @@ function ArticleDetails({ data }) {
     
  
     
-    
-    
         return (
       
-        
-           
-            
-    
-           
-    
               <div className="details">
                 <h4>Topic: {newitem.topic}</h4>
                 <img src={imageUrl} alt="thumbnail" width="250" height="170" />
@@ -61,30 +39,7 @@ function ArticleDetails({ data }) {
              <Link to="/getcentre">Go Back</Link>
               </div>
        
-
-      
-    
-    
-        
-   
         );
-    // };
-
-  
-     
-   
-
-
-
-// return (
-//      <div className="results">
-        
-//          {/* {data.map((item, index) => (            */}
-
-//           <ArticleCard />
-//           {/* ))} */}
-//         </div>
-//       );
 
 }
 
